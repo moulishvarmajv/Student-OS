@@ -1,0 +1,72 @@
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# Testing / coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ==============================
+# FastAPI / application logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# Database dumps
+# ==============================
+*.sql.gz
+*.dump
+*.backup
+
+# ==============================
+# Local database files
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
